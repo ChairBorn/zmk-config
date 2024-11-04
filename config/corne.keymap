@@ -9,6 +9,20 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        vol_d {
+            bindings = <&kp C_VOLUME_DOWN>;
+            key-positions = <5 29>;
+        };
+
+        vol_u {
+            bindings = <&kp C_VOL_UP>;
+            key-positions = <6 30>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -54,15 +68,6 @@
 &kp TAB    &bt BT_CLR    &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW        &kp AT_SIGN    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LCTRL  &bt BT_SEL 0  &bt BT_SEL 1    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                          &kp LALT              &trans                 &kp SPACE      &kp RET    &trans     &kp RGUI
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp C_VOL_UP  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp C_VOL_DN  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp K_MUTE    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans        &trans  &trans
             >;
         };
     };
