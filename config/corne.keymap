@@ -21,6 +21,11 @@
             bindings = <&kp C_VOL_UP>;
             key-positions = <6 30>;
         };
+
+        mu {
+            bindings = <&kp K_MUTE>;
+            key-positions = <29 30>;
+        };
     };
 
     keymap {
