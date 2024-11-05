@@ -24,7 +24,7 @@
 
         mu {
             bindings = <&kp K_MUTE>;
-            key-positions = <29 30>;
+            key-positions = <18 17>;
         };
     };
 
