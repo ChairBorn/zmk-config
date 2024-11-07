@@ -9,25 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        vol_d {
-            bindings = <&kp C_VOLUME_DOWN>;
-            key-positions = <5 29>;
-        };
-
-        vol_u {
-            bindings = <&kp C_VOL_UP>;
-            key-positions = <6 30>;
-        };
-
-        mu {
-            bindings = <&kp K_MUTE>;
-            key-positions = <18 17>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -69,7 +50,7 @@
             //                    | ALT |     | SPC |   | ENT |     | GUI |
 
             bindings = <
-&kp ESC    &kp EXCL      &kp AT          &kp UP_ARROW          &kp DLLR               &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&kp ESC    &kp EXCL      &kp QUESTION    &kp UP_ARROW          &kp DLLR               &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &kp TAB    &bt BT_CLR    &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW        &kp AT_SIGN    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LCTRL  &bt BT_SEL 0  &bt BT_SEL 1    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                          &kp LALT              &trans                 &kp SPACE      &kp RET    &trans     &kp RGUI
