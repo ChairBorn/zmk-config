@@ -17,3 +17,4 @@ BACKLIGHT_ENABLE = no  # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no
 
 TAP_DANCE_ENABLE = yes
+WPM_ENABLE = yes
