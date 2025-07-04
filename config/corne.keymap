@@ -91,8 +91,8 @@
 
             bindings = <
 &kp ESC  &kp EXCL      &kp QUESTION    &kp UP_ARROW          &kp DLLR               &kp PRCNT      &kp AMPERSAND  &kp CARET  &kp ASTRK             &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp BSPC
-&kp TAB  &bt BT_CLR    &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW        &kp AT_SIGN    &kp UNDER      &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSLH           &kp GRAVE
-&trans   &bt BT_SEL 0  &bt BT_SEL 1    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH       &kp MINUS      &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE           &kp TILDE
+&kp TAB  &bt BT_CLR    &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW        &kp AT_SIGN    &kp MINUS      &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSLH           &kp GRAVE
+&trans   &bt BT_SEL 0  &bt BT_SEL 1    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH       &kp UNDER      &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE           &kp TILDE
                                        &trans                &trans                 &kp SPACE      &kp RET        &trans     &kp RGUI
             >;
         };
